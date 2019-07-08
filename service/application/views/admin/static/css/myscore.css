@@ -1,0 +1,49 @@
+
+/* CSS reset */
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px;}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+
+/*�ҵĳɼ�*/
+body {background:#fff;}
+table,td,th{
+    border:1px solid #cad9ea;
+    padding:0 1em 0;
+	text-align:center;
+}
+td{
+    background-color:#f5fafe;
+}
+.term{text-align:center;
+      width:100%;
+	  font-size:25px;
+	  color:blue;
+	  margin:30px 0px 10px 0px;
+}
+.score_table{height:90px;
+    width:100%;
+}
+
+.score_show{
+    margin-left:25px;
+	margin-right:25px;}
+
+.empty{height:50px;}
+.empty hr{margin-top:50px;}
+

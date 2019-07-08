@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+	<title>成绩修改</title>
+	<link rel="stylesheet" type="text/css" href="../css/score_insert.css" />
+</head>
+<script>
+    function to_modify(){
+       var schoolnum=document.getElementById("schoolnum").value;
+       if(schoolnum=="1514080902122"){
+            window.location.href='modify_show.html';
+       }
+       else{alert("未找到该学生，请重新输入！")}
+    }
+</script>
+
+<body>
+  <div class="all">
+  <div class="tishi">提示：请输入需要修改成绩的学生学号</div>
+  <div>学号：
+    <input type="text" class="select_kuang" id="schoolnum" placeholder="输入完整13位学号"/>
+	<input type="button" class="search_btn" value="查询" onclick="to_modify()"/>
+  </div>
+  </div>
+</body>
+</html>

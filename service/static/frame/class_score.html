@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+	<title>班级成绩</title>
+	<link rel="stylesheet" type="text/css" href="../css/class_score.css" />
+</head>
+<script>
+	function to_class_score_show(){
+		var class_choose=document.getElementById("class_choose").value;
+		var term_choose=document.getElementById("term_choose").value;
+		if(class_choose=="15software1"){
+			if(term_choose=="3"){
+		 		window.location.href="class_score_show.html";
+		 	}
+		 	else{alert("您选择的学期暂无数据！")}
+		}
+		else{alert("您选择的班级不存在，请重新选择！")}
+	}
+</script>
+
+<body>
+	<div class="all"> 
+	<div class="term_choose">学期：
+	  <select class="select_kuang" id="term_choose">
+	    <option value="">请选择</option>
+		<option value="1">2014-2015学年第一学期</option>
+		<option value="2">2014-2015学年第二学期</option>
+		<option value="3">2015-2016学年第一学期</option>
+		<option value="4">2015-2016学年第二学期</option>
+		<option value="5">2016-2017学年第一学期</option>
+		<option value="6">2016-2017学年第二学期</option>
+		<option value="7">2017-2018学年第一学期</option>
+		<option value="8">2017-2018学年第二学期</option>
+	  </select>
+	</div>
+	<div class="class_choose">班级：
+	  <select class="select_kuang" id="class_choose">
+	    <option value="">请选择</option>
+		<option value="15software1">15软件1班</option>
+		<option value="15software2">15软件2班</option>
+		<option value="15network1">15网络1班</option>
+		<option value="15network2">15网络2班</option>
+		<option value="15computer1">15计科1班</option>
+		<option value="15computer2">15计科2班</option>
+	  </select>
+	</div>
+	<div class="btn">
+		<input class="search_btn" type="button" value="查询" onclick="to_class_score_show()"/>
+		<input class="reset_btn" type="button" value="重置"/>
+	</div>
+	</div>
+</body>
+</html>

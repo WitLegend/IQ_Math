@@ -1,0 +1,55 @@
+/* CSS reset */
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px;}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+
+/*注册页面*/
+body {background:url(../images/background.jpg);}
+.zhuce .title{ font:20px/50px "微软雅黑", "黑体"; font-weight:bold;color:#333333; width:270px; text-align:center; }
+.zhuce{ position:absolute;width:310px; height:435px; padding-left:50px; background:#fff;left:50%;top:50%;margin-left:-160px;margin-top:-200px;border-radius:5px;}
+.zhuce h3{ font:16px/50px "微软雅黑", "黑体"; color:#333333; width:270px; text-align:center;}
+.zhuce .kuang_txt{ width:270px; height:32px; border:1px solid #dddddd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:10px; }
+.zhuce .btn_zhuce{ width:275px; height:33px; background:#37b5f9; font-size:14px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;margin-top:10px;}
+.zhuce .lan{ color:#19aaf8; padding-left:0px;}
+.zhuce .jump{margin-top:20px;float:right;margin-right:44px;}
+.zhuce .jump a{color:#37b5f9;}
+
+.zhuce .schoolnum{background:url(../images/account.jpg) no-repeat 10px 10px;}
+.zhuce .truename{background:url(../images/account.jpg) no-repeat 10px 10px;}
+.zhuce .email{background:url(../images/email.jpg) no-repeat 10px 10px;}
+.zhuce .password{background:url(../images/password.jpg) no-repeat 10px 10px;}
+.zhuce .dept{background:url(../images/dept.jpg) no-repeat 10px 10px;}
+.zhuce .login_role{background:url(../images/account.jpg) no-repeat 10px 10px;}
+
+
+
+/*登录界面*/
+.denglu{position:absolute; top:50%; left:50%;width:270px;height:350px;margin-top:-165px;margin-left:-135px;background:#fff;padding-left:50px;border-radius:5px;}
+.denglu .title{ font:20px/50px "微软雅黑", "黑体"; font-weight:bold;color:#37b5f9; width:220px; text-align:center; margin-top:5px;}
+.denglu h3{ font:16px/50px "微软雅黑", "黑体"; color:#37b5f9; width:220px; text-align:center;}
+.denglu .kuang_txt{ width:220px; height:32px; border:1px solid #dddddd; background:#faffbd; line-height:32px; padding-left:4px; color:#b1a9a9;  margin-bottom:10px; }
+.denglu .forget a{ color:#37b5f9; float:right; margin-right:44px;}
+.denglu .btn_zhuce{ width:227px; height:33px; background:#37b5f9; font-size:14px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;margin-top:10px;}
+.denglu .btn_zhuce:hover,.login_qita_kuang .zc .left .btn_zhuce:hover{ background:#0065d0;}
+.denglu .jump{margin-top:20px;float:right;margin-right:44px;}
+.denglu .jump a{color:#37b5f9;}
+
+/*修改界面*/
+

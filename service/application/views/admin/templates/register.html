@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GBK">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link type="text/css" rel="stylesheet" href="../static/css/login.css">
+
+    <script>
+    /*function getelements() {
+     var schoolnum = document.getElementById('schoolnum').value;
+     var truename = document.getElementById('truename').value;
+     var email = document.getElementById('email').value;
+     var password = document.getElementById('password').value;
+     register(schoolnum, truename, email, password);
+     }*/
+    
+    </script>
+    <title>学生成绩管理系统</title>
+</head>
+<body>
+    <div id="test"></div>
+    <div class="zhuce">
+        <div class="title"><p>学生成绩管理系统</p></div>
+    
+        <h3>欢迎注册</h3>
+        <input name="" type="text" class="kuang_txt schoolnum" id="schoolnum" placeholder="账号">
+        <input name="" type="text" class="kuang_txt truename" id="truename" placeholder="姓名">
+        <input name="" type="text" class="kuang_txt password" id="password" placeholder="密码">
+		<input name="" type="text" class="kuang_txt dept" id="dept" placeholder="系别">
+		<select name="" class="kuang_txt login_role" id="login_role" >
+			<option value="">请选择</option>
+			<option value="teacher">教师</option>
+			<option value="student">学生</option>
+		</select>
+            <div>
+                <input name="" type="checkbox" value=""><span> 已阅读并同意<a href="#" target="_blank"><span class="lan">《惠州学院教务处管理协议》</span></a></span>
+            </div>
+            <input name="注册" type="button" class="btn_zhuce" value="注册" onclick="getelements()">
+        
+        <div class="jump">已有帐号？<a href="/">立即登录</a></div>
+    </div>
+</body>
+</html>

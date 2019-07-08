@@ -1,0 +1,39 @@
+/* CSS reset */
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px;}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+
+body {margin-top:5%;}
+table,td,th{
+    border:1px solid #cad9ea;
+    padding:0 0 0;
+	text-align:center;
+}
+td{
+    background-color:#f5fafe;
+}
+.score_table{margin:10px;}
+.tishi{margin:10px 0px 10px 20px;}
+.score{width:100%;
+	border:0;
+	text-align:center;
+}
+.btn_div{ text-align: center;}
+.modify_btn{width:150px; height:33px; background:#37b5f9; font-size:16px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;margin-top:10px;}
