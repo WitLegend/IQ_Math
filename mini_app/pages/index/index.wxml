@@ -1,0 +1,23 @@
+<view class='container'>
+  <view class='person-infor'>
+    <image src='{{userInfo.avatarUrl}}' class='avatarUrl'></image>
+    <view style='text-align:center;'>
+      <view>{{userInfo.nickName}}</view>
+      <view>本周最高得分:{{score}}</view>
+    </view>
+    <image src='../../imgs/entry_qr.svg' class='qr' bindtap='get_qr_address'></image> <!--注意不要跳转到web_view-->
+  </view>
+
+  <view class='choose' bindtap='gotoFighting'>
+    <image src='../../imgs/answer_personal.jpg'></image>
+    <view>个人答题</view>
+  </view>
+   <view class='choose' bindtap='gotoFriends'>
+    <image src='../../imgs/answer_contest.jpg'></image>
+    <view>答题比赛</view>
+  </view>
+  <view class='choose' bindtap='gotoRank'>
+    <image src='../../imgs/entry_rank.jpg'></image>
+    <view>好友排名</view>
+  </view>
+</view>

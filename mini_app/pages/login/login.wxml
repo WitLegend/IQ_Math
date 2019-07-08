@@ -1,0 +1,15 @@
+<view class="container">
+  <view class='userinfo'>
+  <view class='cent'>
+    <view>
+      <text class='user-motto' style='color:black'>{{motto}}\n </text>
+    </view>
+    <button type='primary' wx:if="{{canIUse}}" open-type='getUserInfo' bindgetuserinfo='onGotUserInfo'>授权使用智力算数</button>
+    <view wx:else>请升级微信版本</view>
+  </view>
+  <!-- <block>
+    <image class='userinfo-avatar' src='{{userInfo.avatarUrl}}' backgroup-size="cover" ></image>
+    <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+  </block> -->
+  </view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/rank/rank",
+    "pages/answer_personal/answer_personal",
+    "pages/fighting_room/fighting_room",
+    "pages/friends_match/friends_match",
+    "pages/friends_sort/friends_sort",
+    "pages/answer_friends/answer_friends"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智力算数",
+    "navigationBarTextStyle":"black"
+  }
+}

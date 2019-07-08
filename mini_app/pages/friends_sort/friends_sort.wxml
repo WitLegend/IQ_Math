@@ -1,0 +1,12 @@
+<!--pages/friends_sort/friends_sort.wxml-->
+<view class='title'>
+  <text> 选择好友进行比赛</text>
+</view>
+<view class='enrollToast' wx:if='{{showShareButton}}'>
+  <view class='toast'></view>
+  <view class='content'>
+    <button type='primary' bindtap='into_room' wx:if='{{is_share}}'>进入对战房间</button>
+    <button style='margin-top:50rpx;' type='primary' open-type='share'>转发给好友</button>
+    <button  style='margin-top:50rpx;' bindtap='closeShareButton'>取消</button>
+  </view>
+</view>

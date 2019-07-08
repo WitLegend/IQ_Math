@@ -1,2 +1,4 @@
-mini_app/
+mini_app/config.js
+
+
 service/application/config/*.php

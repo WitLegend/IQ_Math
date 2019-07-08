@@ -1,0 +1,25 @@
+/* pages/login/login.wxss */
+@import "../../utils/base_bg.wxss";
+page {
+    height: 100%;
+}
+button::after{
+    border: none;
+}
+.warp button {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    border-radius:0px 0px 0px 0px;
+    color: transparent;
+    background:transparent no-repeat center center;
+    background-size: cover;   
+    /* background-image: url("") */
+}
+.cent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
